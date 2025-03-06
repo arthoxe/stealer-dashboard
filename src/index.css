@@ -1,0 +1,16 @@
+body {
+    background-color: #1a1a1a;
+    color: #ff4444;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .app { text-align: center; }
+  .login input { padding: 10px; margin: 10px; border: 2px solid #ff4444; background: #333; color: #fff; }
+  .login button { padding: 10px 20px; background: #ff4444; border: none; color: #fff; cursor: pointer; }
+  .error { color: #ff9999; }
+  .dashboard ul { list-style: none; padding: 0; }
+  .dashboard a { color: #ff9999; text-decoration: none; }
