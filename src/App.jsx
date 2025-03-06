@@ -17,7 +17,7 @@ function App() {
   const [adminMessage, setAdminMessage] = useState('');
   
   // Use the URL defined in environment variables or a default URL
-  const API_URL = process.env.REACT_APP_API_URL || 'https://votre-api.vercel.app';
+  const API_URL = process.env.REACT_APP_API_URL || 'https://stealer-api.vercel.app';
 
   const handleLogin = async () => {
     try {
